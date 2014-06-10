@@ -2,7 +2,7 @@ Codepath - Facebook Newsfeed
 =================
 
 ####How many hours did it take to complete?  
-7 hours
+7 hours  
 
 ####Which required and optional stories have you completed?  
 #####Completed
