@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120BAE1825FE4D5992C81C4C /* libPods-facebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D541E3A70F1648C9B9AEFE5C /* libPods-facebook.a */; };
 		7A9800DA19462B28003CF280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9800D919462B28003CF280 /* Foundation.framework */; };
 		7A9800DC19462B28003CF280 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9800DB19462B28003CF280 /* CoreGraphics.framework */; };
 		7A9800DE19462B28003CF280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9800DD19462B28003CF280 /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		7A9800F519462B28003CF280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9800DD19462B28003CF280 /* UIKit.framework */; };
 		7A9800FD19462B28003CF280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A9800FB19462B28003CF280 /* InfoPlist.strings */; };
 		7A9800FF19462B28003CF280 /* facebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9800FE19462B28003CF280 /* facebookTests.m */; };
+		7A98010B19462CE2003CF280 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A98010919462CE2003CF280 /* FeedViewController.m */; };
+		7A98010C19462CE2003CF280 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A98010A19462CE2003CF280 /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		7A9800FA19462B28003CF280 /* facebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebookTests-Info.plist"; sourceTree = "<group>"; };
 		7A9800FC19462B28003CF280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A9800FE19462B28003CF280 /* facebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookTests.m; sourceTree = "<group>"; };
+		7A98010819462CE2003CF280 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		7A98010919462CE2003CF280 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		7A98010A19462CE2003CF280 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		9A79765F8A114F589661ADEC /* Pods-facebook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook.xcconfig"; path = "Pods/Pods-facebook.xcconfig"; sourceTree = "<group>"; };
+		D541E3A70F1648C9B9AEFE5C /* libPods-facebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				7A9800DC19462B28003CF280 /* CoreGraphics.framework in Frameworks */,
 				7A9800DE19462B28003CF280 /* UIKit.framework in Frameworks */,
 				7A9800DA19462B28003CF280 /* Foundation.framework in Frameworks */,
+				120BAE1825FE4D5992C81C4C /* libPods-facebook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +86,14 @@
 		7A9800CD19462B28003CF280 = {
 			isa = PBXGroup;
 			children = (
+				7A98010819462CE2003CF280 /* FeedViewController.h */,
+				7A98010919462CE2003CF280 /* FeedViewController.m */,
+				7A98010A19462CE2003CF280 /* FeedViewController.xib */,
 				7A9800DF19462B28003CF280 /* facebook */,
 				7A9800F819462B28003CF280 /* facebookTests */,
 				7A9800D819462B28003CF280 /* Frameworks */,
 				7A9800D719462B28003CF280 /* Products */,
+				9A79765F8A114F589661ADEC /* Pods-facebook.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +113,7 @@
 				7A9800DB19462B28003CF280 /* CoreGraphics.framework */,
 				7A9800DD19462B28003CF280 /* UIKit.framework */,
 				7A9800F219462B28003CF280 /* XCTest.framework */,
+				D541E3A70F1648C9B9AEFE5C /* libPods-facebook.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A98010219462B28003CF280 /* Build configuration list for PBXNativeTarget "facebook" */;
 			buildPhases = (
+				385DFFC5BC30469F9E44ADAF /* Check Pods Manifest.lock */,
 				7A9800D219462B28003CF280 /* Sources */,
 				7A9800D319462B28003CF280 /* Frameworks */,
 				7A9800D419462B28003CF280 /* Resources */,
+				9167B2E0B0BE42D09F97B864 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9800E419462B28003CF280 /* InfoPlist.strings in Resources */,
+				7A98010C19462CE2003CF280 /* FeedViewController.xib in Resources */,
 				7A9800EC19462B28003CF280 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,12 +252,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		385DFFC5BC30469F9E44ADAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9167B2E0B0BE42D09F97B864 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-facebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A9800D219462B28003CF280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A9800EA19462B28003CF280 /* JLAppDelegate.m in Sources */,
+				7A98010B19462CE2003CF280 /* FeedViewController.m in Sources */,
 				7A9800E619462B28003CF280 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,12 +406,14 @@
 		};
 		7A98010319462B28003CF280 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A79765F8A114F589661ADEC /* Pods-facebook.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook/facebook-Prefix.pch";
 				INFOPLIST_FILE = "facebook/facebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -368,12 +421,14 @@
 		};
 		7A98010419462B28003CF280 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A79765F8A114F589661ADEC /* Pods-facebook.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook/facebook-Prefix.pch";
 				INFOPLIST_FILE = "facebook/facebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +493,7 @@
 				7A98010419462B28003CF280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A98010519462B28003CF280 /* Build configuration list for PBXNativeTarget "facebookTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +502,7 @@
 				7A98010719462B28003CF280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

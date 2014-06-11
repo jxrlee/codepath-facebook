@@ -8,8 +8,10 @@
             <connections>
                 <outlet property="actionBar" destination="Yk7-P8-wWJ" id="d66-9j-QWS"/>
                 <outlet property="commentImageView" destination="VMY-By-hmd" id="oPg-sB-Lsy"/>
+                <outlet property="menuBar" destination="BLR-Hs-fc4" id="R16-Fl-6rf"/>
                 <outlet property="postContainer" destination="mXW-QR-mkO" id="Joj-o7-CJy"/>
                 <outlet property="postImage" destination="Ygq-Bh-eaO" id="ViX-GM-NHG"/>
+                <outlet property="postText" destination="B6O-fR-VYX" id="mXe-5k-cns"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
