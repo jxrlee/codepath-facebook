@@ -2,7 +2,7 @@ Codepath - Facebook Newsfeed
 =================
 
 ####How many hours did it take to complete?  
-7 hours  
+8 hours  
 
 
 ####Which required and optional stories have you completed?  
@@ -16,3 +16,5 @@ Codepath - Facebook Newsfeed
 
 #####WIP
 - Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
+
+![alt tag](https://www.dropbox.com/s/1ai5t068qp9d2ez/facebook_newsfeed.gif)
